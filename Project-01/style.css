@@ -1,1 +1,59 @@
 /* Hi Frontend Mentor */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    background-color: #fff;
+    width: 320px;
+    height: 499px;    
+    border-radius: 20px;
+    top: 200px;
+    left: 756.5px;
+}
+
+img {
+    display: block;
+    margin: 16px;
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+}
+
+.card .text-bold {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    margin: 16px 0;
+    padding: 0 16px;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.card .text {
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px 0;
+    padding: 0 16px;
+    line-height: 140%;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+}
