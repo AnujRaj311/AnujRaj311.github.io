@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 562px;
+    width: 360px;
+    background-color:  hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.wrapper .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+    
+}
+
+.wrapper .card-image img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.wrapper .text-bold {
+    color:hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+
+}
+
+.wrapper .green {
+    color:hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper .role {
+    color: grey;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 18px;
+
+}
+
+.share-link a {
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    display: block;
+    width: 296px;
+    height: 40px;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+
